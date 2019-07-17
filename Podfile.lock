@@ -1,0 +1,46 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - JSONModel (1.8.0)
+  - THostUI (0.0.1):
+    - THostUI/HostUI (= 0.0.1)
+  - THostUI/HostUI (0.0.1):
+    - AFNetworking
+    - JSONModel
+    - THostUI/UIKit
+    - WHToast
+  - THostUI/UIKit (0.0.1)
+  - WHToast (0.0.3)
+
+DEPENDENCIES:
+  - THostUI
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - JSONModel
+    - THostUI
+    - WHToast
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  THostUI: be44d8f3043ce811d48474ac23c1f4a68287ba7d
+  WHToast: 30d7f1734ff57b391da4050fab13a2af0e95638c
+
+PODFILE CHECKSUM: b4ef41dd0b465c97dc95115dcc96524bb1039dfa
+
+COCOAPODS: 1.7.4
